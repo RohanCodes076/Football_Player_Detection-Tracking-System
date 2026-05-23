@@ -24,8 +24,6 @@ to generate smooth and consistent tracking IDs throughout the match.
 
 ---
 
----
-
 ## 🖼️ Project Overview
 
 <p align="center">
