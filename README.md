@@ -40,30 +40,11 @@ to generate smooth and consistent tracking IDs throughout the match.
 ✅ Ball detection and tracking  
 ✅ Referee detection  
 ✅ Goalkeeper identification  
-✅ Smooth trajectory tracking  
 ✅ High FPS inference  
 ✅ Video-based analysis pipeline  
 ✅ YOLO11 transfer learning  
 ✅ ByteTrack integration  
 ✅ Output visualization with bounding boxes and IDs  
-
----
-
-# 📂 Project Structure
-
-```bash
-Football_Player_Detection_Tracking/
-│
-├── dataset/
-├── input_videos/
-├── output/
-├── models/
-├── notebooks/
-├── app.py
-├── train.py
-├── requirements.txt
-└── README.md
-```
 
 ---
 
@@ -81,9 +62,8 @@ Dataset used for training:
 
 The football match video used for testing is available in:
 
-```bash
-video/
-```
+[▶️ View Input Video](./videos/video.mp4)
+
 
 ---
 
@@ -96,7 +76,7 @@ video/
 
 ---
 
-# 🧠 Technologies Used
+# 🧠 Technologies and requiremnts 
 
 | Technology | Purpose |
 |---|---|
@@ -230,15 +210,7 @@ ByteTrack is a high-performance multi-object tracking algorithm that:
 
 The final processed output video is available in:
 
-```bash
-output/
-```
-
-Example:
-
-```bash
-output/output_video.mp4
-```
+[🎯 View Output Video](./output/output.avi)
 
 ---
 
@@ -293,12 +265,9 @@ The output video contains:
 - Team classification
 - Tactical heatmaps
 - Player re-identification
-- Pose estimation integration
 - Real-time dashboard analytics
 
 ---
-
-# ⭐ Support
 
 If you found this project useful, give this repository a ⭐ on GitHub!
 
