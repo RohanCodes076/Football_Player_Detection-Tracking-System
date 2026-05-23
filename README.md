@@ -62,7 +62,7 @@ Dataset used for training:
 
 The football match video used for testing is available in:
 
-[▶️ View Input Video](./videos/video.mp4)
+[▶️ View Input Video](./video/video.mp4)
 
 
 ---
@@ -149,7 +149,6 @@ To improve model robustness and generalization, several augmentations were appli
 
 | Augmentation | Purpose |
 |---|---|
-| Blur | Simulates motion blur |
 | Median Blur | Reduces image noise |
 | ToGray | Improves robustness |
 | CLAHE | Enhances contrast |
@@ -163,9 +162,6 @@ To improve model robustness and generalization, several augmentations were appli
 
 Pretrained YOLO11 weights were used to accelerate training and improve feature extraction.
 
-```bash
-Transferred 1009/1015 layers from pretrained weights
-```
 
 ### ✅ Benefits
 
